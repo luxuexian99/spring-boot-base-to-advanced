@@ -33,12 +33,11 @@ configure(allprojects) { project ->
     apply plugin: 'java'
 	apply plugin: 'maven'
     apply plugin: 'idea'
-    apply plugin: 'groovy'
     apply plugin: 'net.saliman.cobertura'
     apply plugin: 'com.github.kt3k.coveralls'
 
-	sourceCompatibility = 1.8
-	targetCompatibility = 1.8
+	sourceCompatibility = JavaVersion.VERSION_1_8
+	targetCompatibility = JavaVersion.VERSION_1_8
 
 	ext {
 		springBootVersion = '1.4.0.BUILD-SNAPSHOT'
@@ -87,6 +86,10 @@ subprojects {
 		}
 	}
 
+    cobertura {
+        coverageIgnoreTrivial = true
+    }
+
 	task sourcesJar(type: Jar, dependsOn: classes) {
 		classifier = 'sources'
 		from sourceSets.main.allSource
@@ -110,6 +113,16 @@ subprojects {
 configure(rootProject) {
 	description = "Spring Boot Base to Advanced"
 }
+
+def subCoberturaFiles = subprojects.collect { new File("${buildDir}", "/cobertura/cobertura.ser") }
+
+cobertura {
+    coverageFormats = ['html', 'xml'] // coveralls plugin depends on xml format report
+    coverageSourceDirs = subprojects.sourceSets.main.allSource.srcDirs.flatten()
+    coverageMergeDatafiles = subCoberturaFiles
+}
+
+test.dependsOn(subprojects.test)
 
 task wrapper(type: Wrapper) {
 	gradleVersion = '2.13'
