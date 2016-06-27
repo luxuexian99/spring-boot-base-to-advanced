@@ -3,8 +3,10 @@ Spring Boot Base to Advanced
 
 Spring Boot Base to Advanced.
 
+[![Build Status](https://travis-ci.org/luxuexian99/spring-boot-base-to-advanced.svg?branch=master)](https://travis-ci.org/luxuexian99/spring-boot-base-to-advanced) 
+
 This projects is used to learning the Spring Boot and it's related technology.
-Like: Spring Cloud and so on.
+Like Spring Cloud and so on.
 
 Based on: 
 
