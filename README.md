@@ -10,13 +10,13 @@ Like Spring Cloud and so on.
 
 Based on: 
 
-    - Build systems: Gradle 2.13 
-    
-    - SpringBoot: 1.4.0.BUILD-SNAPSHOT.
-    - Springframework: 4.3.1.BUILD-SNAPSHOT
-    - Bootstrap: 3.3.6
-    - Jquery: 2.2.3
-    - (To be continued...)
+- [![Gradle 2.13](https://img.shields.io/badge/gradle-2.13-green.svg)](https://github.com/gradle/gradle) 
+- [![SpringBoot: 1.4.0.BUILD-SNAPSHOT](https://img.shields.io/badge/spring--boot-1.4.0.BUILD--SNAPSHOT-orange.svg)](https://github.com/spring-projects/spring-boot)
+- [![SpringFramework: 4.3.1.BUILD-SNAPSHOT](https://img.shields.io/badge/spring--framework-4.3.1.BUILD--SNAPSHOT-orange.svg)](https://github.com/spring-projects/spring-framework)
+- [![Thymeleaf: 2.1.4](https://img.shields.io/badge/thymeleaf-2.1.4-green.svg)](http://www.thymeleaf.org/)
+- [![Bootstrap: 3.3.6](https://img.shields.io/badge/bootstrap-3.3.6-6f5499.svg)](https://github.com/twbs/bootstrap)
+- [![jquery: 2.2.3](https://img.shields.io/badge/jquery-2.2.3-blue.svg)](http://jquery.com/)
+- (To be continued...)
 
 Github [Spring Boot Base to Advanced](https://github.com/luxuexian99/spring-boot-base-to-advanced) projects.
 
