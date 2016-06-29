@@ -2,4 +2,6 @@ rootProject.name = 'spring-boot-base-to-advanced'
 
 // 引子
 include 'spring-boot-intro'
+// 使用 SpringBoot 构建 SpringMVC 程序
+include 'spring-boot-mvc-rest-thymeleaf'
 
