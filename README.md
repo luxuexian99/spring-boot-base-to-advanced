@@ -2,11 +2,12 @@ Spring Boot Base to Advanced
 ==============
 
 Spring Boot Base to Advanced.
+Spring Boot 从零往高级进击。
 
 [![Build Status](https://travis-ci.org/luxuexian99/spring-boot-base-to-advanced.svg?branch=master)](https://travis-ci.org/luxuexian99/spring-boot-base-to-advanced) [![Coverage Status](https://coveralls.io/repos/github/luxuexian99/spring-boot-base-to-advanced/badge.svg?branch=master)](https://coveralls.io/github/luxuexian99/spring-boot-base-to-advanced?branch=master) 
 
-This projects is used to learning the Spring Boot and it's related technology.
-Like Spring Cloud and so on.
+This projects is used to learning the Spring Boot and it's related technology, Like Spring Cloud and so on.
+此项目组为学习 Spring Boot 以及其相关技术, 如: Spring Cloud等等。
 
 Based on: 
 
@@ -23,7 +24,18 @@ Github [Spring Boot Base to Advanced](https://github.com/luxuexian99/spring-boot
 Author [Asion Lu](luxuexin99@gmail.com) 
 
 Preface
--------
+----------
 ### spring-boot-into
+    A simple spring boot servlet into.
+    
 ### spring-boot-mvc-rest-thymeleaf
+- RESTful
+- Thymeleaf
+- Spring Boot @WebMvcTest
+
+### spring-boot-thymeleaf-jdbc-embedded-db
+- JdbcTemplate 
+- H2 Database
+- Spring Boot @WebMvcTest
+
 ### (To be continued...)
