@@ -44,7 +44,7 @@ configure(allprojects) { project ->
 		springVersion = '4.3.1.RELEASE'
 		springCloudVersion = 'Brixton.SR2'
 		springBootAdminVersion = '1.3.3'
-		platformBomVersion = 'Athens.BUILD-SNAPSHOT'
+		platformBomVersion = 'Athens-BUILD-SNAPSHOT'
 		unitilsBom = '3.4.2'
 	}
 
