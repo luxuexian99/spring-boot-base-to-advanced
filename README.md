@@ -17,6 +17,7 @@ Based on:
 - [![Thymeleaf: 2.1.4](https://img.shields.io/badge/thymeleaf-2.1.4-green.svg)](http://www.thymeleaf.org/)
 - [![Bootstrap: 3.3.6](https://img.shields.io/badge/bootstrap-3.3.6-6f5499.svg)](https://github.com/twbs/bootstrap)
 - [![jquery: 2.2.3](https://img.shields.io/badge/jquery-2.2.3-blue.svg)](http://jquery.com/)
+- [![mybatis-spring-boot-starter:1.1.1](https://img.shields.io/badge/mybatis-spring-boot-starter-1.1.1-green.svg)](https://github.com/mybatis/spring-boot-starter)
 - (To be continued...)
 
 Github [Spring Boot Base to Advanced](https://github.com/luxuexian99/spring-boot-base-to-advanced) projects.
@@ -37,5 +38,10 @@ Preface
 - JdbcTemplate 
 - H2 Database
 - Spring Boot @WebMvcTest
+
+### spring-boot-thymeleaf-mybatis-embedded-db
+- Mybatis mybatis-spring-boot-starter:1.1.1 
+- H2 Database
+- Spring Boot TestRestTemplate MockMvc
 
 ### (To be continued...)
