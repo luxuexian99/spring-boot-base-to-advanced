@@ -1,0 +1,14 @@
+server:
+  port: 10083
+
+spring:
+  thymeleaf:
+    cache: false
+  datasource:
+    driver-class-name: org.h2.Driver
+    schema: classpath:/database/schema/schema.sql
+    data: classpath:/database/dataset/sample_data.sql
+    url: jdbc:h2:mem:asion_sample;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=FALSE
+
+
+

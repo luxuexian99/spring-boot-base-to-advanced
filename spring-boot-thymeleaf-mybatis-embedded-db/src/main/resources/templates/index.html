@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org"
+      xmlns:layout="http://www.ultraq.net.nz/web/thymeleaf/layout"
+      layout:decorator="layout">
+<head>
+    <title>Static</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+</head>
+<body>
+<script type="text/javascript"
+        src="webjars/jquery/2.2.3/jquery.min.js" th:src="@{/webjars/jquery/2.2.3/jquery.min.js}"></script>
+<div layout:fragment="content" class="container">
+    <div id="navbar" class="navbar navbar-default" role="navigation">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse"
+                    data-target=".navbar-collapse">
+                <span class="icon-bar"></span> <span class="icon-bar"></span> <span
+                    class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand"
+               href="https://github.com/luxuexian99/spring-boot-base-to-advanced"> Spring Boot Base to Advanced
+            </a>
+        </div>
+        <div class="navbar-collapse collapse">
+            <ul class="nav navbar-nav">
+                <li><a href=""> Home </a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="jumbotron">
+        <h1>Home</h1>
+        <p>Some static content</p>
+        <p>Hello <!--/*@thymesVar id="name" type="java.lang.String"*/-->
+        <span th:text="${name}"></span>
+        </p>
+        <p>
+            <a th:href="@{/sample/list}" href="sample/list.html"> Samples </a>
+            <a class="btn btn-lg btn-primary" th:href="@{/sample/list}" href="sample/list.html" role="button">Go &raquo;</a>
+        </p>
+    </div>
+</div>
+<script type="text/javascript"
+        src="webjars/bootstrap/3.3.6/js/bootstrap.min.js"
+        th:src="@{/webjars/bootstrap/3.3.6/js/bootstrap.min.js}"></script>
+</body>
+</html>

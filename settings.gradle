@@ -6,4 +6,6 @@ include 'spring-boot-intro'
 include 'spring-boot-mvc-rest-thymeleaf'
 // jdbcTemplate
 include 'spring-boot-thymeleaf-jdbc-embedded-db'
+// mybatis
+include 'spring-boot-thymeleaf-mybatis-embedded-db'
 
