@@ -46,6 +46,9 @@ configure(allprojects) { project ->
 		springBootAdminVersion = '1.3.5'
 		platformBomVersion = 'Athens-RC1'
 		unitilsBom = '3.4.2'
+        thymeleafVersion = '3.0.1.RELEASE'
+        thymeleafLayoutDialectVersion = '2.0.1'
+        thymeleafJava8timeVersion = '3.0.0.RELEASE'
 	}
 
 	repositories {

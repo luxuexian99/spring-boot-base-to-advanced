@@ -21,7 +21,7 @@ xmlns:layout="http://www.ultraq.net.nz/web/thymeleaf/layout" layout:decorator="l
         </thead>
         <tbody>
         <!--/*@thymesVar id="samples" type="java.util.List<org.asion.boot.mvc.model.Sample>"*/-->
-        <tr th:if="${samples.empty}">
+        <tr th:if="${samples.isEmpty()}">
             <td colspan="4">No samples</td>
         </tr>
         <tr th:each="sample : ${samples}">

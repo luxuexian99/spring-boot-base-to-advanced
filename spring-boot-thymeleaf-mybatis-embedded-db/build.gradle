@@ -3,6 +3,12 @@ apply plugin: 'spring-boot'
 dependencies {
     compile("org.springframework.boot:spring-boot-starter-web")
     compile("org.springframework.boot:spring-boot-starter-thymeleaf")
+
+    compile("org.thymeleaf:thymeleaf-spring4:${thymeleafVersion}")
+    compile("org.thymeleaf:thymeleaf:${thymeleafVersion}")
+    compile("nz.net.ultraq.thymeleaf:thymeleaf-layout-dialect:${thymeleafLayoutDialectVersion}")
+    compile("org.thymeleaf.extras:thymeleaf-extras-java8time:${thymeleafJava8timeVersion}")
+
     compile("org.springframework.boot:spring-boot-starter-jdbc")
     compile("org.mybatis.spring.boot:mybatis-spring-boot-starter:1.1.1")
     compile('com.h2database:h2')
