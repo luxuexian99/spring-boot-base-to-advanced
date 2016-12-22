@@ -9,3 +9,8 @@ include 'spring-boot-thymeleaf-jdbc-embedded-db'
 // mybatis
 include 'spring-boot-thymeleaf-mybatis-embedded-db'
 
+// spring cloud
+include 'spring-boot-cloud:spring-boot-admin'
+include 'spring-boot-cloud:spring-cloud-config-server'
+include 'spring-boot-cloud:spring-cloud-registry-server'
+
