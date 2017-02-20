@@ -11,9 +11,11 @@ This projects is used to learning the Spring Boot and it's related technology, L
 
 Based on: 
 
-- [![Gradle 2.13](https://img.shields.io/badge/gradle-2.13-green.svg)](https://github.com/gradle/gradle) 
-- [![SpringBoot: 1.4.0.BUILD-SNAPSHOT](https://img.shields.io/badge/spring--boot-1.4.0.BUILD--SNAPSHOT-orange.svg)](https://github.com/spring-projects/spring-boot)
-- [![SpringFramework: 4.3.1.BUILD-SNAPSHOT](https://img.shields.io/badge/spring--framework-4.3.1.BUILD--SNAPSHOT-orange.svg)](https://github.com/spring-projects/spring-framework)
+- [![Gradle 3.1](https://img.shields.io/badge/Gradle-3.1-green.svg)](https://github.com/gradle/gradle) 
+- [![SpringFramework: 4.3.6.RELEASE](https://img.shields.io/badge/Spring%20Framework-4.3.6.RELEASE-orange.svg)](https://github.com/spring-projects/spring-framework)
+- [![SpringBoot: 1.4.4.RELEASE](https://img.shields.io/badge/Spring%20Boot-1.4.4.RELEASE-orange.svg)](https://github.com/spring-projects/spring-boot)
+- [![SpringCloud: Camden.SR5](https://img.shields.io/badge/Spring%20Cloud-Camden.SR5-orange.svg)](https://github.com/spring-cloud)
+- [![SpringBootAdmin: 1.4.5](https://img.shields.io/badge/Spring%20Boot%20Admin-1.4.5-orange.svg)](https://github.com/codecentric/spring-boot-admin)
 - [![Thymeleaf: 2.1.4](https://img.shields.io/badge/thymeleaf-2.1.4-green.svg)](http://www.thymeleaf.org/)
 - [![Bootstrap: 3.3.6](https://img.shields.io/badge/bootstrap-3.3.6-6f5499.svg)](https://github.com/twbs/bootstrap)
 - [![jquery: 2.2.3](https://img.shields.io/badge/jquery-2.2.3-blue.svg)](http://jquery.com/)
@@ -43,5 +45,15 @@ Preface
 - Mybatis mybatis-spring-boot-starter:1.1.1 
 - H2 Database
 - Spring Boot TestRestTemplate MockMvc
+
+### spring-boot-thymeleaf-mybatis-embedded-db
+- Mybatis mybatis-spring-boot-starter:1.1.1 
+- H2 Database
+- Spring Boot TestRestTemplate MockMvc
+
+### spring-boot-cloud
+- spring-cloud-config-server
+- spring-cloud-registry-server
+- spring-boot-admin
 
 ### (To be continued...)
