@@ -2,7 +2,7 @@
  * asion-cloud's sub projects configuration
  */
 project("spring-cloud-config-server") {
-    apply plugin: "spring-boot"
+    apply plugin: "org.springframework.boot"
 
     dependencies {
         compile('org.springframework.cloud:spring-cloud-config-server')
@@ -17,7 +17,7 @@ project("spring-cloud-config-server") {
 }
 
 project("spring-cloud-registry-server") {
-    apply plugin: "spring-boot"
+    apply plugin: "org.springframework.boot"
 
     dependencies {
         compile('org.springframework.cloud:spring-cloud-starter-eureka')
@@ -32,7 +32,7 @@ project("spring-cloud-registry-server") {
 }
 
 project("spring-boot-admin") {
-    apply plugin: "spring-boot"
+    apply plugin: "org.springframework.boot"
 
     dependencies {
         compile("de.codecentric:spring-boot-admin-server:${springBootAdminVersion}")
