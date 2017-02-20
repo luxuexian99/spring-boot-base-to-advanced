@@ -9,8 +9,6 @@ import org.springframework.web.bind.annotation.*;
 import org.springframework.web.servlet.ModelAndView;
 import org.springframework.web.servlet.mvc.support.RedirectAttributes;
 
-import javax.validation.Valid;
-
 /**
  * Sample controller.
  * @author Asion.
@@ -41,13 +39,17 @@ public class SampleController {
     }
 
     @PostMapping(value = "create")
-    public ModelAndView create(@Valid Sample sample, BindingResult result, RedirectAttributes redirect) {
+    public ModelAndView create(Sample sample, BindingResult result, RedirectAttributes redirect) {
         if (result.hasErrors()) {
             return new ModelAndView("sample/form", "formErrors", result.getAllErrors());
         }
         sample = sampleRepository.save(sample);
-        redirect.addFlashAttribute("globalSample", "Successfully save a new sample");
-        return new ModelAndView("redirect:/sample/{sample.id}", "sample.id", sample.getId());
+        if (sample == null) {
+            return new ModelAndView("sample/form", "formErrors", "save error!");
+        } else {
+            redirect.addFlashAttribute("globalSample", "Successfully save a new sample");
+            return new ModelAndView("redirect:/sample/{sample.id}", "sample.id", sample.getId());
+        }
     }
 
     @RequestMapping("foo")

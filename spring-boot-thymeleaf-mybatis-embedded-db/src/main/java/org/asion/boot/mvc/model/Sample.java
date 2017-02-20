@@ -1,5 +1,7 @@
 package org.asion.boot.mvc.model;
 
+import org.springframework.format.annotation.DateTimeFormat;
+
 import java.io.Serializable;
 import java.util.Date;
 
@@ -14,9 +16,11 @@ public class Sample implements Serializable {
 
     private String summary;
 
-    private Date createdAt = new Date();
+    @DateTimeFormat(iso = DateTimeFormat.ISO.DATE_TIME, pattern = "yyyy-MM-dd HH:mm:ss")
+    private Date createdAt;
 
-    private Date updatedAt = new Date();
+    @DateTimeFormat(iso = DateTimeFormat.ISO.DATE_TIME, pattern = "yyyy-MM-dd HH:mm:ss")
+    private Date updatedAt;
 
     public Long getId() {
         return id;
@@ -55,6 +59,22 @@ public class Sample implements Serializable {
     }
 
     public void setUpdatedAt(Date updatedAt) {
+        this.updatedAt = updatedAt;
+    }
+
+    public Sample() {}
+
+    public Sample(Long id, String summary, String text) {
+        this.id = id;
+        this.summary = summary;
+        this.text = text;
+    }
+
+    public Sample(Long id, String summary, String text, Date createdAt, Date updatedAt) {
+        this.id = id;
+        this.text = text;
+        this.summary = summary;
+        this.createdAt = createdAt;
         this.updatedAt = updatedAt;
     }
 

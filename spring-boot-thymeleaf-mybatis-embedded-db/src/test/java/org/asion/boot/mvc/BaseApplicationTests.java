@@ -18,7 +18,7 @@ import static org.springframework.boot.test.context.SpringBootTest.WebEnvironmen
 @SpringBootTest(
         value = {"server.port=0"},
         webEnvironment = RANDOM_PORT,
-        classes = SpringBootMvcMybatisApplication.class
+        classes = SpringBootMvcMybatisTestApplication.class
 )
 public class BaseApplicationTests {
 
