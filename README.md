@@ -32,26 +32,25 @@ Preface
     A simple spring boot servlet into.
     
 ### spring-boot-mvc-rest-thymeleaf
+
 - RESTful
 - Thymeleaf
 - Spring Boot @WebMvcTest
 
 ### spring-boot-thymeleaf-jdbc-embedded-db
-- JdbcTemplate 
+
+- JdbcTemplate
 - H2 Database
 - Spring Boot @WebMvcTest
 
 ### spring-boot-thymeleaf-mybatis-embedded-db
-- Mybatis mybatis-spring-boot-starter:1.1.1 
-- H2 Database
-- Spring Boot TestRestTemplate MockMvc
 
-### spring-boot-thymeleaf-mybatis-embedded-db
-- Mybatis mybatis-spring-boot-starter:1.1.1 
+- Mybatis mybatis-spring-boot-starter:1.1.1
 - H2 Database
 - Spring Boot TestRestTemplate MockMvc
 
 ### spring-boot-cloud
+
 - spring-cloud-config-server
 - spring-cloud-registry-server
 - spring-boot-admin
