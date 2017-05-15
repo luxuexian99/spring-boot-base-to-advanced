@@ -4,7 +4,7 @@ Spring Boot Base to Advanced
 Spring Boot Base to Advanced.
 Spring Boot 从零往高级进击。
 
-[![Build Status](https://travis-ci.org/luxuexian99/spring-boot-base-to-advanced.svg?branch=master)](https://travis-ci.org/luxuexian99/spring-boot-base-to-advanced) [![Coverage Status](https://coveralls.io/repos/github/luxuexian99/spring-boot-base-to-advanced/badge.svg?branch=master)](https://coveralls.io/github/luxuexian99/spring-boot-base-to-advanced?branch=master) 
+[![Build Status](https://travis-ci.org/search-cloud/spring-boot-base-to-advanced.svg?branch=master)](https://travis-ci.org/search-cloud/spring-boot-base-to-advanced) [![Coverage Status](https://coveralls.io/repos/github/search-cloud/spring-boot-base-to-advanced/badge.svg?branch=master)](https://coveralls.io/github/search-cloud/spring-boot-base-to-advanced?branch=master)
 
 This projects is used to learning the Spring Boot and it's related technology, Like Spring Cloud and so on.
 此项目组为学习 Spring Boot 以及其相关技术, 如: Spring Cloud等等。
@@ -22,7 +22,7 @@ Based on:
 - [![mybatis-spring-boot-starter:1.1.1](https://img.shields.io/badge/mybatis--spring--boot--starter-1.1.1-green.svg)](https://github.com/mybatis/spring-boot-starter)
 - (To be continued...)
 
-Github [Spring Boot Base to Advanced](https://github.com/luxuexian99/spring-boot-base-to-advanced) projects.
+Github [Spring Boot Base to Advanced](https://github.com/search-cloud/spring-boot-base-to-advanced) projects.
 
 Author [Asion Lu](luxuexin99@gmail.com) 
 
