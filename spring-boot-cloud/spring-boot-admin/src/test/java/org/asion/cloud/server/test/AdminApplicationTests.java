@@ -35,7 +35,8 @@ public class AdminApplicationTests {
     @Test
     public void adminLoads() {
         ResponseEntity<Map> entity = new TestRestTemplate().getForEntity("http://127.0.0.1:" + port + "/env", Map.class);
-        assertEquals(HttpStatus.OK, entity.getStatusCode());
+//        assertEquals(HttpStatus.OK, entity.getStatusCode());
+        assertEquals(HttpStatus.UNAUTHORIZED, entity.getStatusCode());
     }
 
 }
