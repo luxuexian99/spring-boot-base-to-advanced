@@ -5,7 +5,7 @@ buildscript {
     apply plugin: 'groovy'
 
 	ext {
-		springBootVersion = '1.4.2.RELEASE'
+		springBootVersion = '1.5.3.RELEASE'
 	}
 	repositories {
 		mavenLocal()
@@ -41,13 +41,13 @@ configure(allprojects) { project ->
 	targetCompatibility = JavaVersion.VERSION_1_8
 
 	ext {
-		springBootVersion = '1.4.4.RELEASE'
-		springVersion = '4.3.6.RELEASE'
-		springCloudVersion = 'Camden.SR5'
-		springBootAdminVersion = '1.4.5'
-		platformBomVersion = 'Athens-SR3'
+		springBootVersion = '1.5.3.RELEASE'
+		springVersion = '4.3.8.RELEASE'
+		springCloudVersion = 'Dalston.RELEASE'
+		springBootAdminVersion = '1.5.0'
+		platformBomVersion = 'Brussels-SR2'
 		unitilsBom = '3.4.2'
-        thymeleafVersion = '3.0.1.RELEASE'
+        thymeleafVersion = '3.0.6.RELEASE'
         thymeleafLayoutDialectVersion = '2.0.1'
         thymeleafJava8timeVersion = '3.0.0.RELEASE'
 	}
