@@ -1,6 +1,8 @@
 # registry server
 spring.application.name: asion-cloud-eureka-server
 server.port: 8761
+management.security.enabled: false
+
 logging:
   file: asion-cloud-eureka-server.log
   level.root: info

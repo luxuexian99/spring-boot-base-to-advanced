@@ -1,5 +1,6 @@
 # config server
 server.port: 9090
+management.security.enabled: false
 spring:
   application.name: asion-cloud-config-server
   cloud:

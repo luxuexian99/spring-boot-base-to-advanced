@@ -17,7 +17,6 @@ import static org.springframework.boot.test.context.SpringBootTest.WebEnvironmen
 
 @RunWith(SpringRunner.class)
 @SpringBootTest(
-        value = {"server.port=0"},
         webEnvironment = RANDOM_PORT,
         classes = AsionCloudConfigServerApplication.class
 )
@@ -26,11 +25,11 @@ public class ConfigApplicationTests {
     @LocalServerPort
     private int port = 0;
 
-//    @Test
-//    public void catalogLoads() {
-//        ResponseEntity<Map> entity = new TestRestTemplate().getForEntity("http://127.0.0.1:" + port + "/key", Map.class);
-//        assertEquals(HttpStatus.OK, entity.getStatusCode());
-//    }
+    @Test
+    public void catalogLoads() {
+        ResponseEntity<Map> entity = new TestRestTemplate().getForEntity("http://127.0.0.1:" + port + "/metrics", Map.class);
+        assertEquals(HttpStatus.OK, entity.getStatusCode());
+    }
 
     @Test
     public void adminLoads() {

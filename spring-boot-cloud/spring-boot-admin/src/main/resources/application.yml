@@ -1,6 +1,8 @@
 # asion spring boot admin server
 spring.application.name: asion-spring-boot-admin
 server.port: 10090
+management.security.enabled: false
+
 logging:
   file: asion-spring-boot-admin.log
   level.root: info
