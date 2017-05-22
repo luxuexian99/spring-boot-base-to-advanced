@@ -12,11 +12,11 @@ This projects is used to learning the Spring Boot and it's related technology, L
 Based on: 
 
 - [![Gradle 3.1](https://img.shields.io/badge/Gradle-3.1-green.svg)](https://github.com/gradle/gradle) 
-- [![SpringFramework: 4.3.6.RELEASE](https://img.shields.io/badge/Spring%20Framework-4.3.6.RELEASE-orange.svg)](https://github.com/spring-projects/spring-framework)
-- [![SpringBoot: 1.4.4.RELEASE](https://img.shields.io/badge/Spring%20Boot-1.4.4.RELEASE-orange.svg)](https://github.com/spring-projects/spring-boot)
-- [![SpringCloud: Camden.SR5](https://img.shields.io/badge/Spring%20Cloud-Camden.SR5-orange.svg)](https://github.com/spring-cloud)
-- [![SpringBootAdmin: 1.4.5](https://img.shields.io/badge/Spring%20Boot%20Admin-1.4.5-orange.svg)](https://github.com/codecentric/spring-boot-admin)
-- [![Thymeleaf: 2.1.4](https://img.shields.io/badge/thymeleaf-2.1.4-green.svg)](http://www.thymeleaf.org/)
+- [![SpringFramework: 4.3.8.RELEASE](https://img.shields.io/badge/Spring%20Framework-4.3.8.RELEASE-orange.svg)](https://github.com/spring-projects/spring-framework)
+- [![SpringBoot: 1.5.3.RELEASE](https://img.shields.io/badge/Spring%20Boot-1.5.3.RELEASE-orange.svg)](https://github.com/spring-projects/spring-boot)
+- [![SpringCloud: Dalston.RELEASE](https://img.shields.io/badge/Spring%20Cloud-Dalston.RELEASE-orange.svg)](https://github.com/spring-cloud)
+- [![SpringBootAdmin: 1.5.0](https://img.shields.io/badge/Spring%20Boot%20Admin-1.5.0-orange.svg)](https://github.com/codecentric/spring-boot-admin)
+- [![Thymeleaf: 3.0.6](https://img.shields.io/badge/thymeleaf-3.0.6-green.svg)](http://www.thymeleaf.org/)
 - [![Bootstrap: 3.3.6](https://img.shields.io/badge/bootstrap-3.3.6-6f5499.svg)](https://github.com/twbs/bootstrap)
 - [![jquery: 2.2.3](https://img.shields.io/badge/jquery-2.2.3-blue.svg)](http://jquery.com/)
 - [![mybatis-spring-boot-starter:1.1.1](https://img.shields.io/badge/mybatis--spring--boot--starter-1.1.1-green.svg)](https://github.com/mybatis/spring-boot-starter)
@@ -28,8 +28,8 @@ Author [Asion Lu](luxuexin99@gmail.com)
 
 Preface
 ----------
-### spring-boot-into
-    A simple spring boot servlet into.
+### spring-boot-intro
+    A simple spring boot servlet intro.
     
 ### spring-boot-mvc-rest-thymeleaf
 
