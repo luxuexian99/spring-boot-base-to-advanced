@@ -1,7 +1,11 @@
+---
+
 # Spring Boot Base to Advanced
 
 [![Build Status](https://travis-ci.org/search-cloud/spring-boot-base-to-advanced.svg?branch=master)](https://travis-ci.org/search-cloud/spring-boot-base-to-advanced)
 [![Coverage Status](https://coveralls.io/repos/github/search-cloud/spring-boot-base-to-advanced/badge.svg?branch=master)](https://coveralls.io/github/search-cloud/spring-boot-base-to-advanced?branch=master)
+
+---
 
 # Based on
 
@@ -15,9 +19,13 @@
 - [![jquery: 2.2.3](https://img.shields.io/badge/jquery-2.2.3-blue.svg)](http://jquery.com/)
 - [![mybatis-spring-boot-starter:1.1.1](https://img.shields.io/badge/mybatis--spring--boot--starter-1.1.1-green.svg)](https://github.com/mybatis/spring-boot-starter)
 
+---
+
 # About me
 Github [Spring Boot Base to Advanced](https://github.com/search-cloud/spring-boot-base-to-advanced) projects.
 Author [Asion Lu](luxuexin99@gmail.com)
+
+---
 
 # Preface
 
@@ -27,3 +35,5 @@ Author [Asion Lu](luxuexin99@gmail.com)
 - spring-boot-thymeleaf-mybatis-embedded-db
 - spring-boot-cloud
 - (To be continued...)
+
+---
