@@ -1,10 +1,9 @@
-Spring Boot Base to Advanced
-==============
+# Spring Boot Base to Advanced
 
-Spring Boot Base to Advanced.
-[![Build Status](https://travis-ci.org/search-cloud/spring-boot-base-to-advanced.svg?branch=master)](https://travis-ci.org/search-cloud/spring-boot-base-to-advanced) [![Coverage Status](https://coveralls.io/repos/github/search-cloud/spring-boot-base-to-advanced/badge.svg?branch=master)](https://coveralls.io/github/search-cloud/spring-boot-base-to-advanced?branch=master)
+[![Build Status](https://travis-ci.org/search-cloud/spring-boot-base-to-advanced.svg?branch=master)](https://travis-ci.org/search-cloud/spring-boot-base-to-advanced)
+[![Coverage Status](https://coveralls.io/repos/github/search-cloud/spring-boot-base-to-advanced/badge.svg?branch=master)](https://coveralls.io/github/search-cloud/spring-boot-base-to-advanced?branch=master)
 
-Based on: 
+# Based on
 
 - [![Gradle 3.1](https://img.shields.io/badge/Gradle-3.1-green.svg)](https://github.com/gradle/gradle) 
 - [![SpringFramework: 4.3.8.RELEASE](https://img.shields.io/badge/Spring%20Framework-4.3.8.RELEASE-orange.svg)](https://github.com/spring-projects/spring-framework)
@@ -16,36 +15,15 @@ Based on:
 - [![jquery: 2.2.3](https://img.shields.io/badge/jquery-2.2.3-blue.svg)](http://jquery.com/)
 - [![mybatis-spring-boot-starter:1.1.1](https://img.shields.io/badge/mybatis--spring--boot--starter-1.1.1-green.svg)](https://github.com/mybatis/spring-boot-starter)
 
+# About me
 Github [Spring Boot Base to Advanced](https://github.com/search-cloud/spring-boot-base-to-advanced) projects.
 Author [Asion Lu](luxuexin99@gmail.com)
 
-Preface
-----------
-## spring-boot-intro
-    A simple spring boot servlet intro.
-    
-## spring-boot-mvc-rest-thymeleaf
+# Preface
 
-- RESTful
-- Thymeleaf
-- Spring Boot @WebMvcTest
-
-## spring-boot-thymeleaf-jdbc-embedded-db
-
-- JdbcTemplate
-- H2 Database
-- Spring Boot @WebMvcTest
-
-## spring-boot-thymeleaf-mybatis-embedded-db
-
-- Mybatis mybatis-spring-boot-starter:1.1.1
-- H2 Database
-- Spring Boot TestRestTemplate MockMvc
-
-## spring-boot-cloud
-
-- spring-cloud-config-server
-- spring-cloud-registry-server
-- spring-boot-admin
-
-## (To be continued...)
+- spring-boot-intro
+- spring-boot-mvc-rest-thymeleaf
+- spring-boot-thymeleaf-jdbc-embedded-db
+- spring-boot-thymeleaf-mybatis-embedded-db
+- spring-boot-cloud
+- (To be continued...)
